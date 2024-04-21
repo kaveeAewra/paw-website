@@ -1,0 +1,115 @@
+:root {
+  --orange-gradient: linear-gradient(to right, #ff8c00, #ffaf00);
+  --blue-gradient: linear-gradient(to right, #4689b3, #00ffff);
+  --blue:#5275ea;
+  --black:#000000;
+  --shadow:0px 23px 21px -8px rgba(155, 170, 229, 0.25);
+  --lightblue:#eeeeff;
+  
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+  scroll-behavior: smooth;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.paddings{
+  padding: 1.5rem;
+}
+.innerWidth{
+  width: 100%;
+}
+.flexCenter{
+  display: flex;
+  row-gap: 2rem;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+.flexStart{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexEnd{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexColStart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 1rem;
+
+}
+.flexColEnd{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColCenter{
+  display: flex;
+ 
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+.primaryText{
+  color: rgb(25, 49, 101);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.secondary-text{
+  color: rgb(140 139 139);
+  font-size: 1rem;
+}
+.orange-text{
+  color:orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+.button{
+  font-weight: 600;
+  cursor: pointer;
+  padding: .5rem 1.3rem;
+  color: rgb(241, 229, 229);
+  background: var(--blue-gradient);
+  border: 5px;
+  border-radius: 4px;
+  transition: all 300ms ease-in;
+}
+.button:hoover{
+  cursor: pointer;
+  transform: scale(1.1);
+
+}
+
+@media(min-width:1536px) 
+{
+  .innerWidth{
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+}
+@media (min-width:640px) 
+{
+  .paddings{
+    padding:2rem
+  }
+  
+}

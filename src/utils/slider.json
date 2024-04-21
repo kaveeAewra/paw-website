@@ -1,0 +1,43 @@
+[
+    {
+        "name":"Australian Shepherd",
+        "price":"30",
+        "image":"./po.jpg",
+        "info":"Australian shepherds are known for their boundless energy and gorgeous coat. "
+    },
+    {
+        "name":"Siberian Husky",
+        "price":"55",
+        "image":"./sw.jpg",
+        "info":"The Siberian husky is a medium-sized dog, slightly longer than tall. "
+
+    },
+    {
+        "name":"Pembroke Welsh Corgi",
+        "price":"48",
+        "image":"./ql.jpg",
+        "info":"Pembroke Welsh corgis are beloved for their short legs and lively, comedic personalities. "
+
+    },
+    {
+        "name":"Rottweiler",
+        "price":"55",
+        "image":"./wwww.jpg",
+        "info":"Rottweilers are in the working group of dog breeds, meaning that they thrive when they have an activity or “job.” "
+
+    },
+    {
+        "name":"Cavalier King Charles Spaniel",
+        "price":"65",
+        "image":"./q.jpg",
+        "info":"Cavalier King Charles spaniels are not as regal and standoffish as their name may suggest. "
+
+    }, {
+        "name":" Shih Tzu",
+        "price":"75",
+        "image":"./sd.jpg",
+        "info":"Shih Tzus are part of the toy group and are adored for their short stature, playful personalities and cute hairstyles."
+
+    }
+
+    ]
